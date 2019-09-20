@@ -1,0 +1,4 @@
+module,JMSModule1,dum06:Server
+foreign,JMSModule1,ForeignServer1,jndi/init,jndi/url
+dest,JMSModule1,ForeignServer1,ForeignDestination1,jndi/local,jndi/remote
+conn,JMSModule1,ForeignServer1,ForeignConnFactory1,jndi/local,jndi/remote
